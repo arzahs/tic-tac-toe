@@ -1,0 +1,48 @@
+div {
+    box-sizing: border-box;
+}
+
+.field{
+	margin-top: 10px;
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	border: 2px solid black;
+	padding: 0;
+}
+.row{
+	height: 200px;
+}
+.row>div{
+	display: inline-block;
+	width:195px;
+	height: 195px;
+	border: 2px solid black;
+}
+
+.o:after{
+	content: 'O';
+	position: absolute;
+	color: green;
+	font-size: 155px;
+	line-height: 155px;
+	text-align: center;
+	width:194px;
+	height: 194px;
+}
+
+.x:after{
+	content: 'X';
+	position: absolute;
+	color: red;
+	font-size: 155px;
+	line-height: 155px;
+	text-align: center;
+	width:194px;
+	height: 194px;
+}
+
+.winner-message{
+	font-size: 50px;
+	font-weight: bold;
+}
