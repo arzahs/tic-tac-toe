@@ -15,7 +15,7 @@ window.addEventListener("load", function(){
 
 
 	field.addEventListener("click", function handleCellClick(e){
-		if(!e.target.classList.contains('cell')){
+		if(!e.target.classList.contains('cell') || e.target.classList.contains('x') || e.target.classList.contains('o')){
 			return ;
 		}
 
